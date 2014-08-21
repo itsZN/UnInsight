@@ -38,10 +38,10 @@
 <!-- star menu -->
 <div id="menu">
 	<ul>
-		<li><a href="../index.html">Home</a></li>
-		<li><a href="nrbForum.html">NRB Forum</a></li>
-		<li><a href="classForum.html">Class Forum</a></li>
-		<li><a href="greekForum.html">Greek Forum</a></li>
+		<li><a href="/index.html">Home</a></li>
+		<li><a href="/nrb/forum?sid=1&fid=2">NRB Forum</a></li>
+		<li><a href="/nrb/forum?sid=1&fid=3">Class Forum</a></li>
+		<li><a href="/nrb/forum?sid=1&fid=4">Greek Forum</a></li>
 		<li><a href="about.html">about</a></li>
 	</ul>
 </div>
@@ -79,9 +79,10 @@
 			<li id="calendar">
 				<h2>Calendar</h2>
 				<div id="calendar_wrap">
-					<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" >
+					<table id="wp-calendar" summary="Calendar">
+				<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" >
 				  Events
-				</button>
+				</button>>
 
 				<!-- Modal -->
 				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -89,7 +90,7 @@
 					<div class="modal-content">
 					  <div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+						<h4 class="modal-title" id="myModalLabel">Events</h4>
 					  </div>
 					  <div class="modal-body">
 						<p>August 21st - <strong>Grab Your Ice Cream Before the Summer Ends</strong> -- 12:00pm-2:00pm -- Russel Sage Dining Hall</p>
